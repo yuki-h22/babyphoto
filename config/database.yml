@@ -51,4 +51,4 @@ production:
   <<: *default
   database: babyphoto_production
   username: babyphoto
-  password: <%= ENV['BABYPHOTO_DATABASE_PASSWORD'] %>
+  password: <%= ENV['babyphoto_DATABASE_PASSWORD'] %>
